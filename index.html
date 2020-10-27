@@ -31,3 +31,18 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+  var gitment = new Gitment({
+    id: 'location.href',
+    owner: '44285254',
+    repo: 'toorevitimirp.github.io',
+    oauth: {
+        client_id: '05eea7f2ea2f34686d12',
+        client_secret: '8deaa838537d4875ee845fc633e1d356c06d9542',
+    },
+  })
+  gitment.render('container')
+</script>
