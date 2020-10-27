@@ -23,3 +23,18 @@ layout: default
   </ul>
 </aside>
 {% endif %}
+<script src="{{ '/assets/gitalk.min.js' | relative_url}}"></script> 
+
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+    // gitalk的主要参数
+      clientID: '05eea7f2ea2f34686d12',  
+      clientSecret: '8deaa838537d4875ee845fc633e1d356c06d9542',//上面获取到的值
+      repo: 'toorevitimirp.github.io',  //您刚才建立仓库的名字
+      owner: 'toorevitimirp',   //你的GitHub用户名字
+      admin: ['toorevitimirp'],  //你的GitHub用户的名字
+      id: '{{ page.title }}', //id不能重复，如果重复就会把其他页面的评论引进来
+        });
+      gitalk.render('gitalk-container');
+</script>
