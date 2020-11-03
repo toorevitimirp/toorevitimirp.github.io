@@ -12,7 +12,7 @@ tags: sicp
 
 ___
 
-在SICP的练习1.22中，书上提出了一个测试prime?函数的运行时间的过程：timed-prime-test。
+在SICP的练习1.22中，书上提出了一个测试prime?过程的运行时间的过程：timed-prime-test。
 
 为了方便表示，我将它改写成块结构：
 
