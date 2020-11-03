@@ -1,5 +1,3 @@
-
-
 ---
 
 layout: post
@@ -25,7 +23,7 @@ ___
     (display elapsed-time))
   (define (start-prime-test start-time)
     (if (prime? n)
-        (report-prime (- (runtime) 
+        (report-prime (- (runtime)
                        start-time))))
   (newline)
   (display n)
@@ -82,7 +80,7 @@ ___
     (display elapsed-time))
   (define (start-prime-test start-time)
     (if (prime? n)
-        (report-prime (- (runtime) 
+        (report-prime (- (runtime)
                        start-time))))
   (cond ((prime? n)
          (newline)
