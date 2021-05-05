@@ -1,6 +1,6 @@
 # Setup
-title: TOOREVITIMIRP's blog
-url: https://toorevitimirp.github.io
+title: maerd-zinbiel's blog
+url: https://maerd-zinbiel.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -32,7 +32,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: toorevitimirp
+  name: maerd-zinbieL
   url: https://twitter.com/Hazel69179542
   email: db1345569965@gmail.com
 
